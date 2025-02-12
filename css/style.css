@@ -310,7 +310,10 @@ a:active {
     }
 
   #about {
-      background-image: url(https://mrshane06.github.io/personal-portfolio-images/me/me_img.jpg); 
+      background-image: url(https://mrshane06.github.io/personal-portfolio-images/me/Screenshot%202025-02-12%20124851.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
   }
 
 /*==================================================
@@ -537,17 +540,22 @@ a:active {
     margin-top: 0;
 }
 
+.skillIMG{
+    width: 40px;
+    height: 40px;
+}
+
   /* badges */
 
   #achieve{
     border-radius: 10px;
-    width: 80x;
+    width: 80px;
     height:80px;
     transition: 1s;
   }
 
   #achieve:hover{
-    transform: scale(1.2);;
+    transform: scale(1.2);
   }
 
   .skillText{
@@ -563,6 +571,44 @@ a:active {
     gap: 5em;
   }
 
+  .bottom2{
+    margin-top: 35px;
+    display: grid;
+    /* width: 800px; */
+    margin-left: 180px;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 5em;
+  }
+
+  #certificates{
+    display: grid;
+    height: 250px;
+    width: 200px;
+    transition: 1s;
+  }
+
+  @media only screen and (max-width:400px){
+    #achieve{
+        border-radius: 10px;
+        width: 100px;
+        height:100px;
+        transition: 1s;
+      }
+    .bottom3{
+        margin-top: 35px;
+        display: grid;
+        width: 300px;
+        margin-left: 70px;
+        grid-template-columns: repeat(2 ,1fr);
+      }
+    .bottom2{
+        margin-top: 35px;
+        display: grid;
+        width: 300px;
+        margin-left: 100px;
+        grid-template-columns: repeat(1 ,1fr);
+      }
+  }
 /*====================================================
                       AWARD
 ======================================================*/
