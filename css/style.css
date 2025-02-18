@@ -133,6 +133,9 @@ a:active {
       #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
           display: block;
       }
+      nav , .button{
+        color: white;
+      }
   }
 
 /*==================================================
@@ -329,6 +332,20 @@ a:active {
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
 }
+
+@media only screen and (max-width:400px){
+    #meIMG{
+        position: relative;
+        left: 110px;
+        top: 0px;
+        z-index: 1;
+        margin-bottom: 50px;
+        height: 200px;
+        width: 150px;
+    }
+}
+
+
 
 /*==================================================
                     EXPERIENCE
